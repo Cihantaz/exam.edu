@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class="container mt-3 mb-5">
-    <!-- Flash Mesajları -->
+    <!-- Flash mesajları düzgün şekilde Bootstrap ile gösterilecek, Jinja kodları arayüzde görünmez -->
     {% with messages = get_flashed_messages(with_categories=true) %}
       {% if messages %}
         {% for category, message in messages %}
